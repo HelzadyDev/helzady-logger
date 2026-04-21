@@ -15,7 +15,8 @@
   "type": "module",
   "main": "build/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "dev:build": "tsc --watch"
   },
   "keywords": [
     "logger",

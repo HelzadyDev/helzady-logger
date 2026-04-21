@@ -1,1 +1,2 @@
-export * from "./crash.js"
+export * from "./fatal.js"
+export * from "./formatDate.js"
