@@ -1,4 +1,4 @@
-import { formatDate } from "#function";
+import { getTimestamp } from '#utils'
 
 // Define opções adicionais para o fatal
 type fatalOptions = {
@@ -18,7 +18,7 @@ export function fatal(message: string, options: fatalOptions = {}): never {
     error,
   } = options; 
 
-  const time = timestamp ? `[${formatDate(new Date())}]` : ""
+  const time = timestamp ? `[${getTimestamp()}]` : ""
 
   const formatedMessage = `❌ ${time}[${prefix}] ${message}`
 
