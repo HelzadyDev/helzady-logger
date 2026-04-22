@@ -13,10 +13,10 @@
   "license": "MIT",
   "author": "Helzady",
   "type": "module",
+  "files": ["dist"],
   "main": "build/index.js",
   "scripts": {
-    "build": "tsc",
-    "dev:build": "tsc --watch"
+    "build": "tsc"
   },
   "keywords": [
     "logger",
